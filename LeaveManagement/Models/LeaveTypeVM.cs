@@ -6,7 +6,7 @@ namespace LeaveManagement.Models
     public class LeaveTypeVM
     {
         public int Id { get; set; }
-        [Display(Name = "Leave Type Names")]
+        [Display(Name = "Leave Type Name")]
         [Required]
         public string Name { get; set; }
         [Display(Name = "Default Number Of Days")]
